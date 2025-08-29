@@ -99,7 +99,7 @@ main                    # Shared common branch (production)
 ### Quick Start
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/OmarCifuentes/Parcial-1.git
    cd "Parcial 1"
    ```
 
