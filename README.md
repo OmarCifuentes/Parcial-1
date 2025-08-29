@@ -1,9 +1,9 @@
 # ShopLogo - Frontend Project
 
 ## Team Members
-- [Tu Nombre] - Frontend Developer
-- [Nombre del Compañero 2] - Frontend Developer  
-- [Nombre del Compañero 3] - Frontend Developer
+- Omar Cifuentes - Frontend Developer
+- Jonathan Castellano - Frontend Developer  
+
 
 ## Acceptance Criteria
 
