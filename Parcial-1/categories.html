@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="ShopLogo - Tu tienda online de confianza con productos increíbles a precios inigualables" />
+  <meta name="keywords" content="tienda online, productos, compras, ShopLogo" />
+  <meta name="author" content="Equipo Frontend" />
+  <title>Categories - ShopLogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar" role="banner">
+    <div class="container nav">
+      <div class="logo" role="heading" aria-level="1">
+        <a href="index.html" aria-label="ShopLogo - Página principal">ShopLogo</a>
+      </div>
+      <nav class="menu" role="navigation" aria-label="Navegación principal">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="categories.html" aria-current="page">Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="icon-btn" aria-label="Carrito de compras">
+        <span class="icon-cart" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="section" aria-labelledby="categories-title">
+      <div class="container">
+        <h1 id="categories-title" class="section-title">Shop by Category</h1>
+        <p>Browse our products organized by category to find exactly what you're looking for.</p>
+      </div>
+    </section>
+
+    <section id="electronics" class="section section-light" aria-labelledby="electronics-title">
+      <div class="container">
+        <h2 id="electronics-title" class="section-title">Electronics</h2>
+        <div class="grid products-grid">
+          <article class="card product">
+            <div class="thumb" aria-label="Smartphone">Smartphone</div>
+            <div class="card-body">
+              <h3 class="name">Smartphone</h3>
+              <div class="price">$299.99</div>
+              <button class="secondary-btn" aria-label="Agregar Smartphone al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Laptop">Laptop</div>
+            <div class="card-body">
+              <h3 class="name">Laptop</h3>
+              <div class="price">$599.99</div>
+              <button class="secondary-btn" aria-label="Agregar Laptop al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Headphones">Headphones</div>
+            <div class="card-body">
+              <h3 class="name">Headphones</h3>
+              <div class="price">$89.99</div>
+              <button class="secondary-btn" aria-label="Agregar Headphones al carrito">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clothing" class="section" aria-labelledby="clothing-title">
+      <div class="container">
+        <h2 id="clothing-title" class="section-title">Clothing</h2>
+        <div class="grid products-grid">
+          <article class="card product">
+            <div class="thumb" aria-label="T-Shirt">T-Shirt</div>
+            <div class="card-body">
+              <h3 class="name">T-Shirt</h3>
+              <div class="price">$24.99</div>
+              <button class="secondary-btn" aria-label="Agregar T-Shirt al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Jeans">Jeans</div>
+            <div class="card-body">
+              <h3 class="name">Jeans</h3>
+              <div class="price">$49.99</div>
+              <button class="secondary-btn" aria-label="Agregar Jeans al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Sneakers">Sneakers</div>
+            <div class="card-body">
+              <h3 class="name">Sneakers</h3>
+              <div class="price">$79.99</div>
+              <button class="secondary-btn" aria-label="Agregar Sneakers al carrito">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="home" class="section section-light" aria-labelledby="home-title">
+      <div class="container">
+        <h2 id="home-title" class="section-title">Home & Garden</h2>
+        <div class="grid products-grid">
+          <article class="card product">
+            <div class="thumb" aria-label="Garden Chair">Garden Chair</div>
+            <div class="card-body">
+              <h3 class="name">Garden Chair</h3>
+              <div class="price">$89.99</div>
+              <button class="secondary-btn" aria-label="Agregar Garden Chair al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Plant Pot">Plant Pot</div>
+            <div class="card-body">
+              <h3 class="name">Plant Pot</h3>
+              <div class="price">$19.99</div>
+              <button class="secondary-btn" aria-label="Agregar Plant Pot al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Table Lamp">Table Lamp</div>
+            <div class="card-body">
+              <h3 class="name">Table Lamp</h3>
+              <div class="price">$59.99</div>
+              <button class="secondary-btn" aria-label="Agregar Table Lamp al carrito">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sports" class="section" aria-labelledby="sports-title">
+      <div class="container">
+        <h2 id="sports-title" class="section-title">Sports</h2>
+        <div class="grid products-grid">
+          <article class="card product">
+            <div class="thumb" aria-label="Soccer Ball">Soccer Ball</div>
+            <div class="card-body">
+              <h3 class="name">Soccer Ball</h3>
+              <div class="price">$29.99</div>
+              <button class="secondary-btn" aria-label="Agregar Soccer Ball al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Tennis Racket">Tennis Racket</div>
+            <div class="card-body">
+              <h3 class="name">Tennis Racket</h3>
+              <div class="price">$89.99</div>
+              <button class="secondary-btn" aria-label="Agregar Tennis Racket al carrito">Add to Cart</button>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="thumb" aria-label="Yoga Mat">Yoga Mat</div>
+            <div class="card-body">
+              <h3 class="name">Yoga Mat</h3>
+              <div class="price">$34.99</div>
+              <button class="secondary-btn" aria-label="Agregar Yoga Mat al carrito">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-top">
+      <div class="col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="about.html#careers">Careers</a>
+        <a href="about.html#news">News</a>
+      </div>
+      <div class="col">
+        <h4>Support</h4>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#help">Help Center</a>
+        <a href="contact.html#returns">Returns</a>
+      </div>
+      <div class="col">
+        <h4>Legal</h4>
+        <a href="about.html#privacy">Privacy Policy</a>
+        <a href="about.html#terms">Terms of Service</a>
+        <a href="about.html#cookies">Cookie Policy</a>
+      </div>
+      <div class="col">
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" class="social" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z" />
+            </svg>
+          </a>
+          <a href="#" class="social" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z" />
+            </svg>
+          </a>
+          <a href="#" class="social" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2025 ShopLogo. All rights reserved.
+    </div>
+  </footer>
+</body>
+
+</html>
